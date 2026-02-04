@@ -82,3 +82,12 @@ prediction-house-prices/
 pip install -r requirements.txt
 jupyter notebook
 
+<<<<<<< HEAD
+=======
+## 👤 Auteur
+
+**[BOUMIZA Mohamed Rayen]**
+
+* LinkedIn : [Mon Profil](https://www.linkedin.com/in/mohamed-rayan-boumiza/)
+* GitHub : [@VotrePseudo](https://github.com/BoumizaRayen)
+>>>>>>> 1f1e2c99d4037eb42b4cbe83ad8c39e6ef3d21aa
