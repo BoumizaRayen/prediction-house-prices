@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data 
+data/*.csv
+data/*.txt
+
+# Secrets
+kaggle.json
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,92 @@
+# House Prices Prediction 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Scikit-Learn](https://img.shields.io/badge/Library-Scikit--Learn-orange)
+![Status](https://img.shields.io/badge/Status-Completed-success) 
+
+Ce projet de Machine Learning vise à prédire le **prix de vente des maisons (`SalePrice`)** à partir de caractéristiques immobilières, en utilisant le dataset **House Prices – Advanced Regression Techniques** proposé par Kaggle.
+
+---
+
+## 🎯 Objectifs du projet
+
+- Comprendre un problème de régression supervisée réel
+- Réaliser une analyse exploratoire des données (EDA)
+- Préparer les données (valeurs manquantes, encodage)
+- Construire des **pipelines de Machine Learning** avec scikit-learn
+- Comparer plusieurs modèles de régression
+- Évaluer les performances à l’aide de la **RMSE sur données transformées (log1p)**
+
+---
+
+## 📊 Dataset
+
+- **Nom** : House Prices – Advanced Regression Techniques  
+- **Source** : Kaggle  
+- **Lien** : https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques  
+
+### Fichiers utilisés
+- `train.csv`
+- `test.csv`
+
+
+---
+
+## 🗂️ Structure du projet
+
+prediction-house-prices/
+├── notebooks/
+│ └── prediction_house_prices.ipynb # Notebook principal 
+├── data/
+│ ├── train.csv 
+│ └── test.csv
+├── README.md
+├── requirements.txt
+└── .gitignore
+
+---
+
+## ⚙️ Méthodologie
+
+### 1. Analyse exploratoire (EDA)
+- Étude de la variable cible `SalePrice`
+- Analyse des distributions et des corrélations
+- Identification des valeurs manquantes
+
+### 2. Prétraitement des données
+- Séparation des variables numériques et catégorielles
+- Imputation des valeurs manquantes
+- Encodage des variables catégorielles
+- Standardisation lorsque nécessaire
+
+### 3. Modélisation
+- Mise en place de pipelines sklearn
+- Entraînement de plusieurs modèles de régression
+- Ajustement des hyperparamètres
+
+### 4. Évaluation
+- Transformation de la variable cible avec `log1p`
+- Évaluation via **Root Mean Squared Error (RMSE)**
+- Utilisation de la cross-validation
+
+---
+
+## ▶️ Exécution du projet
+
+### Option 1 — Google Colab 
+1. Ouvrir Google Colab
+2. Importer le notebook `prediction_house_prices.ipynb`
+3. Charger les fichiers `train.csv` et `test.csv`
+4. Exécuter toutes les cellules
+
+### Option 2 — Exécution locale
+```bash
+pip install -r requirements.txt
+jupyter notebook
+
+
+## 👤 Auteur
+
+**[BOUMIZA Mohamed Rayen]**
+
+* LinkedIn : [Mon Profil](https://www.linkedin.com/in/mohamed-rayan-boumiza/)
+* GitHub : [@VotrePseudo](https://github.com/BoumizaRayen)
