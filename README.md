@@ -32,15 +32,17 @@ Ce projet de Machine Learning vise à prédire le **prix de vente des maisons (`
 
 ## 🗂️ Structure du projet
 
+```text
 prediction-house-prices/
 ├── notebooks/
-│ └── prediction_house_prices.ipynb # Notebook principal
+│ └── prediction_house_prices.ipynb 
 ├── data/
 │ ├── train.csv
 │ └── test.csv
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 
 ---
 
@@ -80,14 +82,13 @@ prediction-house-prices/
 ### Option 2 — Exécution locale
 ```bash
 pip install -r requirements.txt
-jupyter notebook
+jupyter notebook 
+```
 
-<<<<<<< HEAD
-=======
 ## 👤 Auteur
 
 **[BOUMIZA Mohamed Rayen]**
 
 * LinkedIn : [Mon Profil](https://www.linkedin.com/in/mohamed-rayan-boumiza/)
 * GitHub : [@VotrePseudo](https://github.com/BoumizaRayen)
->>>>>>> 1f1e2c99d4037eb42b4cbe83ad8c39e6ef3d21aa
+
