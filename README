@@ -14,7 +14,7 @@ Ce projet de Machine Learning vise à prédire le **prix de vente des maisons (`
 - Préparer les données (valeurs manquantes, encodage)
 - Construire des **pipelines de Machine Learning** avec scikit-learn
 - Comparer plusieurs modèles de régression
-- Évaluer les performances à l’aide de la **RMSE sur données transformées (log1p)**
+- Évaluer les performances à l'aide de la **RMSE sur données transformées (log1p)**
 
 ---
 
@@ -28,16 +28,15 @@ Ce projet de Machine Learning vise à prédire le **prix de vente des maisons (`
 - `train.csv`
 - `test.csv`
 
-
 ---
 
 ## 🗂️ Structure du projet
 
 prediction-house-prices/
 ├── notebooks/
-│ └── prediction_house_prices.ipynb # Notebook principal 
+│ └── prediction_house_prices.ipynb # Notebook principal
 ├── data/
-│ ├── train.csv 
+│ ├── train.csv
 │ └── test.csv
 ├── README.md
 ├── requirements.txt
@@ -82,7 +81,6 @@ prediction-house-prices/
 ```bash
 pip install -r requirements.txt
 jupyter notebook
-
 
 ## 👤 Auteur
 
